@@ -8,8 +8,8 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
-  color: #dcd4d4;
-  background-color: grey;
+  color: #B2BED6;
+    background-color: #08113B;
 }
 
 .container {
@@ -20,7 +20,7 @@ body {
 
 /* App Header */
 .app-header {
-  background: rgb(239, 232, 232);
+  background: #B2BED6;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   padding: 1rem 0;
   margin-bottom: 2rem;
@@ -44,7 +44,7 @@ body {
 
 .app-header nav a {
   text-decoration: none;
-  color: #666;
+  color: #010101;
   font-weight: 500;
   transition: color 0.2s;
 }
@@ -130,7 +130,7 @@ body {
 }
 
 .stat-card {
-  background: white;
+  background: #B2BED6;
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -163,7 +163,7 @@ color:#2563eb;
 }
 
 .task-card {
-  background: white;
+  background: #B2BED6;
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -179,7 +179,7 @@ color:#2563eb;
 
 .task-header h3 {
   margin: 0;
-  color: #000c1d;
+  color: #010101;
 }
 
 .status-badge {
@@ -191,22 +191,22 @@ color:#2563eb;
 }
 
 .status-badge.pending {
-  background: #fef3c7;
+  background: #B2BED6;
   color: #2563eb;
 }
 
 .status-badge.in-progress {
-  background: #dbeafe;
+  background: #B2BED6;
   color: #2563eb;
 }
 
 .status-badge.completed {
-  background: #dcfce7;
+  background: #B2BED6;
   color: #2563eb;
 }
 
 .task-description {
-  color: #6b7280;
+  color: #f5f2f2;
   margin-bottom: 1rem;
 }
 
@@ -237,7 +237,7 @@ color:#2563eb;
 
 /* Forms */
 .task-form {
-  background: white;
+  background: #B2BED6;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -369,7 +369,7 @@ color:#2563eb;
 
 
 .welcome-section {
-  background: linear-gradient(135deg, #808081 0%, #8f8f8f 100%);
+  background: linear-gradient(135deg, #04326D);
   color: white;
   padding: 3rem 2rem;
   border-radius: 12px;
@@ -396,7 +396,7 @@ color:#2563eb;
 
 
 .stat-card {
-  background: white;
+  background: #B2BED6;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
@@ -446,7 +446,7 @@ color:#2563eb;
 }
 
 .action-card {
-  background: white;
+  background: #B2BED6;
   padding: 2rem;
   border-radius: 12px;
   text-decoration: none;
