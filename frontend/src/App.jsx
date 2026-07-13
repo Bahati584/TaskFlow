@@ -10,7 +10,7 @@ import {
 import TaskList from "./components/TaskList";
 import TaskForm from "./components/TaskForm";
 import Dashboard from "./components/Dashboard";
-import LoginPage from "./components/LoginPage";
+import LoginPage from "./components/LogginPage";
 import { healthCheck } from "./services/api";
 import "./App.css";
 
