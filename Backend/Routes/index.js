@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const taskRoutes = require('./taskRoutes');
-// const userRoutes = require('./userRoutes'); // We'll create this next
+const authRoutes = require('./authRoutes');
 
 // Health check
 router.get('/health', async (req, res) => {
@@ -14,7 +14,7 @@ router.get('/health', async (req, res) => {
 
 // API routes
 router.use('/tasks', taskRoutes);
-// router.use('/users', userRoutes);
+router.use('/auth', authRoutes);
 
 // Root endpoint
 router.get('/', (req, res) => {
@@ -23,6 +23,7 @@ router.get('/', (req, res) => {
         version: "1.0.0",
         endpoints: {
             tasks: "/api/tasks",
+            auth: "/api/auth",
             health: "/api/health"
         }
     });
